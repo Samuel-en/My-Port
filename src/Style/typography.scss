@@ -26,17 +26,15 @@
     justify-content: center;
     padding: 1.5rem 0;
     .icon-holder{
-        margin-right:1rem;
-        .icons{
-            font-size: 2.8rem;
+        margin-right: 1rem;
+        .icon{
+            font-size: 2.5rem;
             color: #a4acc4;
-            transition: all .4s ease-in-out
-        }
+            transition: all .4s ease-in-out;
     }
-
     .gh:hover{
         color: rgb(121, 36, 121) 
 
+        }
     }
-
 }

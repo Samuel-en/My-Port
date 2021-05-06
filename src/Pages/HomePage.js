@@ -17,7 +17,7 @@ function HomePage() {
         </p>
         <div className="Icons">
         <Link className ="icon-holder">
-            <FontAwesomeIcon icon={faGithub} className="gh"/>
+            <FontAwesomeIcon icon={faGithub} className="icon gh"/>
         </Link>
       </div>
       </header>
