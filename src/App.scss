@@ -1,6 +1,7 @@
-@import './Style/layout';
-@import './Style/typography';
+@import './style/layout';
+@import './style/typography';
 @import './style/navbar';
+@import './Style/title';
 
 *{
 
@@ -14,4 +15,7 @@ body{
     color: #6372a59d;
     font-family: 'Roboto', sans-serif; 
     font-size: 1.2rem ;
+}
+span{
+    color: maroon
 }
