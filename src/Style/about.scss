@@ -1,14 +1,15 @@
 .ImageSection{
     display: flex;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     
     .img{
             width: 100%;
-            height: 40vh;
+            height: 50vh;
         img{
-            width:100%;
+            width:110%;
             object-fit: cover ;
-            height: 100%;
+            height: 110%;
         }
     }
     .about-info{
