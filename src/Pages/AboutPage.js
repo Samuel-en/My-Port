@@ -20,10 +20,20 @@ function AboutPage() {
             <Skills skill={'HTML'} progress={'80%'} width={'80%'} />
             <Skills skill={'CSS'} progress={'80%'} width={'80%'} />
             </div>
+
+            <Tittle title={'Services'} span={'Services'} />
+            <div className="servives-container"></div>
+            
             <div className="services-container">
-                <ServicesSection image={design} title={'Web Dev'}/>
-                <ServicesSection image={design} title={'Web Dev'}/>
-                <ServicesSection image={design} title={'Web Dev'}/>
+                <ServicesSection image={design} title={'Web Dev'} 
+                text={'Officia ut cillum nisi excepteur aliquip minim.'} 
+                />
+                <ServicesSection image={design} title={'Web Dev'}
+                text={'Officia ut cillum nisi excepteur aliquip minim.'} 
+                />
+                <ServicesSection image={design} title={'Web Dev'}
+                text={'Officia ut cillum nisi excepteur aliquip minim.'} 
+                />
             </div>
         </div>
     )
